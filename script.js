@@ -13,36 +13,39 @@ const quizQuestions = [
   {
     question: "Wenn du an die Weite des Universums denkst, welche Empfindung durchströmt dich zuerst?",
     options: [
-      { text: "Ich fühle mich befreit – als hätte ich unendliche Möglichkeiten!", category: "optimistic" },
+     
       { text: "Es erinnert mich daran, dass ich selbst für meinen Lebenssinn verantwortlich bin.", category: "existential" },
       { text: "Ich kann nicht anders, als über diese unglaubliche Ironie zu schmunzeln.", category: "absurd" },
-      { text: "Ich werde von einer tiefen Melancholie ergriffen und frage mich, ob alles vergeblich ist.", category: "pessimistic" }
+      { text: "Ich werde von einer tiefen Melancholie ergriffen und frage mich, ob alles vergeblich ist.", category: "pessimistic" },
+      { text: "Ich fühle mich befreit - als hätte ich unendliche Möglichkeiten!", category: "optimistic" }
+
     ]
   },
   {
     question: "Wie reagierst du, wenn dir jemand vorschreibt, wie du leben sollst?",
     options: [
       { text: "Ich genieße die Freiheit, eigene Wege zu gehen, ohne fremde Regeln.", category: "optimistic" },
-      { text: "Das spornt mich an, mir selbst einen festen Standpunkt zu erarbeiten.", category: "existential" },
       { text: "Ich finde an solchen Vorgaben einen urkomischen Widerspruch.", category: "absurd" },
-      { text: "Es macht mich wütend, weil ich mich eingeengt fühle.", category: "pessimistic" }
+      { text: "Es macht mich wütend, weil ich mich eingeengt fühle.", category: "pessimistic" },
+      { text: "Das spornt mich an, mir selbst einen festen Standpunkt zu erarbeiten.", category: "existential" }
     ]
   },
   {
     question: "Wie gehst du mit dem Gedanken um, dass alles vielleicht keinen objektiven Sinn hat?",
     options: [
-      { text: "Das beflügelt mich – ich kann meinen eigenen Sinn erschaffen!", category: "optimistic" },
       { text: "Es zwingt mich, ständig zu hinterfragen und bewusst zu leben.", category: "existential" },
-      { text: "Ich lache darüber, weil die Absurdität des Ganzen fast schon komisch ist.", category: "absurd" },
-      { text: "Es fühlt sich oft erdrückend an, als ob nichts wirklich zählt.", category: "pessimistic" }
+      { text: "Es fühlt sich oft erdrückend an, als ob nichts wirklich zählt.", category: "pessimistic" },
+      { text: "Das beflügelt mich – ich kann meinen eigenen Sinn erschaffen!", category: "optimistic" },
+      { text: "Ich lache darüber, weil die Absurdität des Ganzen fast schon komisch ist.", category: "absurd" }
+      
     ]
   },
   {
     question: "Was empfindest du, wenn du an deinen eigenen Lebensweg denkst?",
     options: [
-      { text: "Ich sehe darin die Möglichkeit, mein Leben ganz nach meinen Vorstellungen zu formen.", category: "optimistic" },
       { text: "Jeder Schritt ist eine bewusste Entscheidung, die mich prägt.", category: "existential" },
       { text: "Manchmal erscheint es mir fast wie ein absurder Zufall, den ich nicht ganz verstehe.", category: "absurd" },
+      { text: "Ich sehe darin die Möglichkeit, mein Leben ganz nach meinen Vorstellungen zu formen.", category: "optimistic" },
       { text: "Es macht mich unsicher und lässt mich an der Richtigkeit meiner Entscheidungen zweifeln.", category: "pessimistic" }
     ]
   },
@@ -58,28 +61,28 @@ const quizQuestions = [
   {
     question: "Wenn du über die Regeln und Normen unserer Gesellschaft nachdenkst, was kommt dir in den Sinn?",
     options: [
-      { text: "Ich sehe sie als Ausgangspunkt, von dem ich meine eigene Freiheit entfalten kann.", category: "optimistic" },
       { text: "Sie fordern mich heraus, meine eigene Identität zu formen.", category: "existential" },
       { text: "Die Widersprüchlichkeit dieser Normen erscheint mir fast schon zum Schmunzeln.", category: "absurd" },
-      { text: "Ich empfinde sie oft als erdrückende Ketten, die mich einschränken.", category: "pessimistic" }
+      { text: "Ich empfinde sie oft als erdrückende Ketten, die mich einschränken.", category: "pessimistic" },
+      { text: "Ich sehe sie als Ausgangspunkt, von dem ich meine eigene Freiheit entfalten kann.", category: "optimistic" },
     ]
   },
   {
     question: "Welcher Gedanke begleitet dich, wenn du über die Vergänglichkeit des Lebens nachdenkst?",
     options: [
+      { text: "Ich werde traurig, weil die Endlichkeit alles oft sinnlos erscheinen lässt.", category: "pessimistic" },
       { text: "Ich feiere die Schönheit des Augenblicks und alles, was möglich ist.", category: "optimistic" },
       { text: "Jeder Moment ist eine Entscheidung – das spornt mich an, bewusst zu leben.", category: "existential" },
-      { text: "Manchmal wirkt die Vergänglichkeit so absurd, dass ich darüber lachen muss.", category: "absurd" },
-      { text: "Ich werde traurig, weil die Endlichkeit alles oft sinnlos erscheinen lässt.", category: "pessimistic" }
+      { text: "Manchmal wirkt die Vergänglichkeit so absurd, dass ich darüber lachen muss.", category: "absurd" }
     ]
   },
   {
     question: "Wie stehst du zu der Vorstellung, dass Kunst deinem Leben Sinn verleihen kann?",
     options: [
       { text: "Kunst ist für mich der ultimative Ausdruck von Freiheit und Kreativität.", category: "optimistic" },
-      { text: "Sie ist ein Spiegel meiner inneren Suche und existenziellen Fragen.", category: "existential" },
       { text: "Manchmal ist die Art, wie Kunst uns berührt, so absurd und unerwartet.", category: "absurd" },
-      { text: "Ohne feste Werte fühle ich mich oft, als ob selbst die Kunst leer wirkt.", category: "pessimistic" }
+      { text: "Ohne feste Werte fühle ich mich oft, als ob selbst die Kunst leer wirkt.", category: "pessimistic" },
+      { text: "Sie ist ein Spiegel meiner inneren Suche und existenziellen Fragen.", category: "existential" },
     ]
   },
   {
@@ -113,9 +116,9 @@ const quizQuestions = [
     question: "Wie erlebst du die Suche nach einem tieferen Sinn im Leben?",
     options: [
       { text: "Ich liebe es, meinen eigenen Weg zu entdecken und zu formen.", category: "optimistic" },
-      { text: "Für mich ist sie eine lebenswichtige Aufgabe, die mich jeden Tag fordert.", category: "existential" },
+      { text: "Diese Suche erinnert mich oft an eine endlose Leere, die mich belastet.", category: "pessimistic" },
       { text: "Manchmal finde ich es geradezu komisch, dass ich überhaupt danach suche.", category: "absurd" },
-      { text: "Diese Suche erinnert mich oft an eine endlose Leere, die mich belastet.", category: "pessimistic" }
+      { text: "Für mich ist sie eine lebenswichtige Aufgabe, die mich jeden Tag fordert.", category: "existential" },
     ]
   },
   {
@@ -130,19 +133,19 @@ const quizQuestions = [
   {
     question: "Wie reagierst du, wenn du das Gefühl hast, keiner würde deine Sichtweise verstehen?",
     options: [
-      { text: "Ich genieße es, mich von der Masse abzuheben und selbst zu leuchten.", category: "optimistic" },
-      { text: "Ich nehme es als Herausforderung, meinen Standpunkt noch klarer zu definieren.", category: "existential" },
       { text: "Das bringt mich oft zum Nachdenken – und gelegentlich auch zum Lachen über die Ironie.", category: "absurd" },
+      { text: "Ich nehme es als Herausforderung, meinen Standpunkt noch klarer zu definieren.", category: "existential" },
+      { text: "Ich genieße es, mich von der Masse abzuheben und selbst zu leuchten.", category: "optimistic" },
       { text: "Ich fühle mich missverstanden und ziehe mich manchmal in meine eigene Welt zurück.", category: "pessimistic" }
     ]
   },
   {
     question: "Wie beschreibt dein Herz deinen Umgang mit den dunklen Seiten des Lebens?",
     options: [
-      { text: "Ich finde oft im Schatten die versteckten Schätze und Chancen.", category: "optimistic" },
-      { text: "Ich setze mich intensiv mit diesen Seiten auseinander, um daraus zu wachsen.", category: "existential" },
       { text: "Die Dunkelheit hat auch einen gewissen absurden Charme, der mich manchmal fasziniert.", category: "absurd" },
-      { text: "Die düsteren Momente belasten mich und lassen mich an der Schönheit des Lebens zweifeln.", category: "pessimistic" }
+      { text: "Die düsteren Momente belasten mich und lassen mich an der Schönheit des Lebens zweifeln.", category: "pessimistic" },
+      { text: "Ich setze mich intensiv mit diesen Seiten auseinander, um daraus zu wachsen.", category: "existential" },
+      { text: "Ich finde oft im Schatten die versteckten Schätze und Chancen.", category: "optimistic" }
     ]
   }
 ];
