@@ -1,0 +1,126 @@
+/* 
+  Wir entfernen jeglichen Rand und füllen die Seite einheitlich, 
+  damit unten kein unschöner Farbunterschied entsteht.
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #f0f3f8; /* Einheitliche Farbe OHNE Verlauf, falls gewünscht */
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Container */
+.quiz-container {
+  max-width: 750px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Überschrift */
+.quiz-container h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Fortschrittsleiste */
+#progressContainer {
+  background: #e0e0e0;
+  border-radius: 10px;
+  height: 15px;
+  width: 100%;
+  margin: 0 auto 30px;
+  overflow: hidden;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #3498db, #8e44ad);
+  transition: width 0.5s ease;
+}
+
+/* Frage-Container */
+#quizContent {
+  margin-bottom: 30px;
+}
+
+/* Frage Text */
+.question {
+  margin-bottom: 25px;
+}
+
+.question-text {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+/* Antwort-Optionen */
+.options {
+  list-style: none;
+  padding: 0;
+}
+
+.options li {
+  margin-bottom: 12px;
+}
+
+.options input[type="radio"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+  vertical-align: middle;
+}
+
+.options label {
+  cursor: pointer;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Weiter-Button */
+#nextButton {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  background-color: #8e44ad;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#nextButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#nextButton:hover:enabled {
+  background-color: #71368a;
+}
+
+/* Ergebnisbereich */
+#resultContainer {
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 2px solid #ddd;
+}
+
+.hidden {
+  display: none;
+}
+
