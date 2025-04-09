@@ -124,3 +124,73 @@ html, body {
   display: none;
 }
 
+/* Media Query für Tablets und kleinere Geräte (max. 768px) */
+@media (max-width: 768px) {
+  .quiz-container {
+    max-width: 90%; /* Container nimmt fast die volle Breite */
+    margin: 20px auto; /* Weniger Abstand oben und unten */
+    padding: 20px; /* Weniger Innenabstand */
+  }
+
+  .quiz-container h1 {
+    font-size: 1.5em; /* Kleinere Überschrift */
+    margin-bottom: 20px;
+  }
+
+  .question-text {
+    font-size: 1.1em; /* Kleinere Fragen */
+  }
+
+  .options label {
+    font-size: 0.9em; /* Kleinere Antworttexte */
+  }
+
+  #nextButton {
+    padding: 10px 25px; /* Button etwas kleiner */
+    font-size: 0.9em;
+  }
+
+  #progressContainer {
+    height: 12px; /* Fortschrittsleiste schmaler */
+    margin-bottom: 20px;
+  }
+}
+
+/* Media Query für Handys (max. 480px) */
+@media (max-width: 480px) {
+  .quiz-container {
+    max-width: 95%; /* Noch schmaler */
+    padding: 15px;
+  }
+
+  .quiz-container h1 {
+    font-size: 1.2em; /* Noch kleinere Überschrift */
+  }
+
+  .question-text {
+    font-size: 1em;
+  }
+
+  .options label {
+    font-size: 0.85em;
+    line-height: 1.4;
+  }
+
+  .options li {
+    margin-bottom: 10px;
+  }
+
+  #nextButton {
+    padding: 8px 20px;
+    font-size: 0.85em;
+  }
+
+  #resultContainer {
+    font-size: 1em;
+    padding: 15px;
+  }
+
+  #progressContainer {
+    height: 10px;
+  }
+}
